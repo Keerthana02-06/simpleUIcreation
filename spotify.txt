@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        Body {
+            font-family: Gotham
+        }
+
+        .button {
+            background-color: #4267B2;
+            color: black;
+            padding: 12px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 15px;
+            margin: 4px 2px;
+            cursor: pointer;
+            width: 30%
+        }
+
+        .button1 {
+            border-radius: 40px;
+            background-color: #4267B2;
+            color: white;
+            border-width: medium;
+            border: solid;
+            border-color: #4267B2;
+        }
+          
+        .button1:hover {
+         background-color: RoyalBlue;
+        }
+        .button2 {
+            border-radius: 40px;
+            background-color: #000000;
+            color: white;
+            border-width: medium;
+            border: solid;
+            border-color: #000000;
+        }
+         .button2:hover {
+         background-color:#555D50;
+         }
+        .button3 {
+            border-radius: 40px;
+            background-color: white;
+            color: grey;
+            border-width: medium;
+            border: solid;
+            border-color: dim gray;
+        }
+        
+        .button3:hover {
+         background-color:gray;
+         color:white;
+        }
+        .button4 {
+            border-radius: 40px;
+            background-color: white;
+            color: grey;
+            border-width: medium;
+            border: solid;
+            border-color:gray;
+        }
+         
+        .button4:hover {
+         background-color:gray;
+         color:white;
+         }
+        .button5 {
+            border-radius: 1px;
+            color: black;
+            border-color: grey;
+            background-color: white;
+            text-align: left;
+            padding: 10px;
+            border-width: thin;
+            color: grey
+        }
+
+        .button6 {
+            border-radius: 1px;
+            color: grey;
+            border-color: grey;
+            background-color: white;
+            text-align: left;
+            padding: 10px;
+            border-width: thin;
+
+        }
+
+        .button7 {
+            border-radius: 40px;
+            background-color: green;
+            color: white;
+            width: 15%;
+            margin-left: 300px;
+            border-width: medium;
+            border: solid;
+            border-color: green;
+        }
+        .button7:hover {
+         background-color:#32CD32;
+         color:white;
+        }
+
+        .button8 {
+            border-radius: 40px;
+            background-color: white;
+            color: grey;
+            border-width: medium;
+            border: solid;
+            border-color: dim grey;
+            width: 30%;
+        }
+        .button8:hover {
+         background-color:gray;
+         color:white;
+         }
+        .cc {
+            text-align: center;
+        }
+
+        .dd {
+            margin-right: 250px;
+        }
+
+        .ee {
+            margin-right: 370px;
+        }
+
+        .ff {
+            margin-right: 290px;
+            color: grey;
+        }
+
+        .gg {
+            margin-right: 330px;
+            color: dim gray;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="cc">
+        <img src="s.png" style="width: 200px;">
+        <hr style="color:lightgrey">
+        <br>
+        <b>To continue,login to spotify.</b>
+        <br>
+        <br>
+        <button class="button button1"><i class="fa fa-facebook" style="padding-right: 10px;"></i>CONTINUE WITH FACEBOOK</button><br>
+        <button class="button button2"><i class="fa fa-apple" style="padding-right: 10px;"></i>CONTINUE WITH APPLE</button><br>
+        <button class="button button3"><img style="margin-bottom: -4px; padding-right: 5px;" src="https://avatars2.githubusercontent.com/u/1342004?v=3&s=20"/>CONTINUE WITH GOOGLE</button><br>
+        <button class="button button4">CONTINUE WITH PHNONE NUMBER</button>
+        <br>
+        <h5 style=" width: 30%;border-bottom: 1px solid #000; line-height: 0.1em; margin-left: 508px;">
+            <span style="background:#fff; padding:0 10px;">
+                OR
+            </span>
+        </h5>
+        
+        <div class="dd">
+            <b>Email address or user name</b>
+        </div>
+        
+        <button class="button button5">Email address or username</button>
+        <br>
+        <br>
+        <div class="ee">
+            <b>Password</b>
+        </div>
+        
+        <button class="button button6">Password</button>
+        <br>
+        <br>
+        <div class="ff">
+            <u>Forgot your password?</u>
+        </div><br>
+        <button class="button button7">LOG IN</button><div class="gg"><input type="checkbox" checked="checked">Remember me </div> 
+        <hr style="width: 30%;">
+        <br>
+        <h3>Dont have an account?</h3>
+        <button class="button button8">SIGN UP FOR SPOTIFY</button><br>
+    </div>
+</body>
+</div>
+
+</html>
